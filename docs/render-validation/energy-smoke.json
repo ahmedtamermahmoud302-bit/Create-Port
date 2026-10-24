@@ -1,0 +1,14 @@
+{
+  "redstone_clutch_gearshift_and_gearbox": true,
+  "flow_driven_waterwheel": true,
+  "alloy_dough_bucket_and_bread_recipes": true,
+  "survival_alloy_casing_conversion": true,
+  "loaded_milling_recipes": 34,
+  "milling_inventory_processing_and_persistence": true,
+  "stress_overload_and_stalling": true,
+  "capacity_su": 256.0,
+  "normal_demand_su": 128.0,
+  "overload_demand_su": 512.0,
+  "overload_recovery_after_removing_load": true,
+  "passed": true
+}

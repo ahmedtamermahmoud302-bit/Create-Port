@@ -2,9 +2,13 @@ package dev.createport.client;
 
 import dev.createport.CreatePort;
 import dev.createport.block.KineticTile;
+import dev.createport.block.KineticBlock;
+import dev.createport.block.DirectionalGeneratorBlock;
+import dev.createport.kinetics.RotationRules.Kind;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraft.client.renderer.block.statemap.StateMap;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.model.ModelLoaderRegistry;
@@ -27,8 +31,15 @@ public final class ClientRegistration {
             ClientRegistry.bindTileEntitySpecialRenderer(KineticTile.class, new KineticRenderer());
             initialized = true;
         }
-        for (Block block : CreatePort.BLOCKS)
+        for (Block block : CreatePort.BLOCKS) {
+            if (block instanceof DirectionalGeneratorBlock)
+                ModelLoader.setCustomStateMapper(block, new StateMap.Builder().ignore(KineticBlock.AXIS).build());
+            else if (block == CreatePort.MILLSTONE)
+                ModelLoader.setCustomStateMapper(block, new StateMap.Builder().ignore(KineticBlock.AXIS).build());
             ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
                 new ModelResourceLocation(block.getRegistryName(), "inventory"));
+        }
+        for (Item item : new Item[] { CreatePort.FLOUR, CreatePort.DOUGH, CreatePort.ANDESITE_ALLOY })
+            ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
     }
 }

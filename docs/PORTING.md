@@ -42,3 +42,5 @@ The user selected main Create first, then addons after the main port is complete
 ## Current validation and outstanding work
 
 See VALIDATION.md and RENDERING.md for the latest rendering milestone. Core client-world checks now pass; this is not full Create gameplay parity. Dedicated-server testing remains pending explicit EULA agreement. Addons remain deferred until the main mod is complete.
+
+Gameplay milestone 0.3.0-dev adds rotational stress/capacity, manual/water generation, transmissions, survival casing progression and a working millstone. See BLOCK-FUNCTIONS.md and VALIDATION.md. Remaining main-mod features are not implemented merely by importing their resources.

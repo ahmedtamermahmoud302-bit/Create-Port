@@ -10,7 +10,7 @@ python3 - <<'PY'
 from pathlib import Path
 import zipfile
 folder = Path('/workspace/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12')
-p = folder / (folder.name + '.jar')
+p = folder / ('forge-' + folder.name + '.jar')
 with zipfile.ZipFile(p) as archive:
     assert b'BUKKIT' not in archive.read('net/minecraftforge/fml/relauncher/Side.class'), 'Wrong runtime Side enum'
 print('Verified official Forge logical-side enum in generated runtime')

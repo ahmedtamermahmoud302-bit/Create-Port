@@ -9,3 +9,4 @@ mkdir -p build/kinetic-checks
   src/test/java/dev/createport/kinetics/*.java
 "$runtime" -cp build/kinetic-checks dev.createport.kinetics.KineticGraphTest
 "$runtime" -cp build/kinetic-checks dev.createport.kinetics.RotationRulesTest
+"$runtime" -cp build/kinetic-checks dev.createport.kinetics.EnergyTest

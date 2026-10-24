@@ -1,0 +1,57 @@
+{
+  "supported": 34,
+  "skipped": [
+    {
+      "id": "bone_meal",
+      "reason": "Legacy dye alias would turn the input into more of itself"
+    },
+    {
+      "id": "calcite",
+      "reason": "No 1.12 counterpart for calcite"
+    },
+    {
+      "id": "cocoa_beans",
+      "reason": "Legacy dye alias would turn the input into more of itself"
+    },
+    {
+      "id": "cornflower",
+      "reason": "No 1.12 counterpart for cornflower"
+    },
+    {
+      "id": "dripstone_block",
+      "reason": "No 1.12 counterpart for dripstone_block"
+    },
+    {
+      "id": "ink_sac",
+      "reason": "Legacy dye alias would turn the input into more of itself"
+    },
+    {
+      "id": "lapis_lazuli",
+      "reason": "Legacy dye alias would turn the input into more of itself"
+    },
+    {
+      "id": "lily_of_the_valley",
+      "reason": "No 1.12 counterpart for lily_of_the_valley"
+    },
+    {
+      "id": "pink_petals",
+      "reason": "No 1.12 counterpart for pink_petals"
+    },
+    {
+      "id": "pitcher_plant",
+      "reason": "No 1.12 counterpart for pitcher_plant"
+    },
+    {
+      "id": "sea_pickle",
+      "reason": "No 1.12 counterpart for sea_pickle"
+    },
+    {
+      "id": "torchflower",
+      "reason": "No 1.12 counterpart for torchflower"
+    },
+    {
+      "id": "wither_rose",
+      "reason": "No 1.12 counterpart for wither_rose"
+    }
+  ]
+}

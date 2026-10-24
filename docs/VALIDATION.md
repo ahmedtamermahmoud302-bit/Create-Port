@@ -1,18 +1,21 @@
-# Validation record: rendering milestone
+# Validation record: gameplay and rotational energy (0.3.0-dev)
 
-- Toolchain: verified Temurin Java 8u504-b01, Gradle 4.9, Forge 14.23.5.2860 and ForgeGradle 3.0.197.
-- `./gradlew clean build --console=plain`: passed after the rendering changes, including reobfuscation.
-- `bash scripts/build.sh`: passed and verified the official two-side Forge enum in the generated runtime.
-- `kineticTest`: 12 checks passed; `rotationRulesTest`: 173 checks passed.
-- `modelResourceTest`: 21,112 model, parent, texture, OBJ and blockstate reference checks passed.
-- Actual Minecraft client: all 643 converted blockstate JSON files parse. 1,874 concrete source block models load and bake with zero failures and zero missing-sprite quads. 27 abstract templates are intentionally not baked alone.
-- `bash scripts/render-check.sh --audit-only`: passed and exited successfully, including current-run result validation.
-- Client-world smoke: powered animation, stopping, source removal and reverse drive passed; client/server RPM values matched. OpenGL checks passed and three direct screenshots were captured. `bash scripts/render-check.sh` passed on 0.2.0-dev and the Gradle launcher exited successfully; current-run evidence is saved alongside the screenshots.
-- Dedicated-server world: still unrun; eula=false is preserved pending the user's explicit agreement. The integrated-world test does not accept or change that file.
-- Main Create parity: incomplete. Other block registrations, machine logic, specialized renderers, connected textures, fluids and contraptions remain unimplemented. Addons and pollution integration remain deferred.
+- Verified Java 8u504-b01, Gradle 4.9, Forge 14.23.5.2860 and ForgeGradle 3.0.197.
+- `bash scripts/build.sh`: passed; compilation, reobfuscation and generated Forge runtime verification passed.
+- 12 kinetic constraint checks, 803 placement/reciprocal checks and 25 energy/transmission/milling-speed checks passed (840 total).
+- 21,168 model/parent/texture/OBJ/blockstate reference checks passed.
+- Native client audit: all 643 source blockstate files parse; 1,874 concrete source block models bake with no loader failures or missing-sprite quads. 27 unbound templates are retained.
+- `bash scripts/render-check.sh`: passed on 0.3.0-dev, including current-run result validation and a successful Gradle launcher exit.
+- Integrated-world core checks: client/server RPM, moving and stopped animation, source removal and reversed drive passed.
+- Integrated-world energy checks: redstone clutch disconnect/recovery, gearshift reverse, gearbox ports, flow-driven water wheel and shaft output, alloy/dough/bread recipes, returned bucket and survival log-to-casing conversion passed.
+- Millstone checks: 34 compatible source recipes loaded; simulated inventory insert, input/output port restrictions, powered wheat processing, hopper-style extraction and inventory NBT persistence passed.
+- Stress checks: crank capacity 256 SU, normal mill demand 128 SU, geared-up demand 512 SU, overload stalling and recovery after removing the excessive load passed. Restoring the load stalls again.
+- Four direct game screenshots and machine-readable reports are in render-validation.
 
-The earlier development-runtime crash was traced to the plain MCP merge injecting a three-value Side enum from the merge tool. The dated Forge userdev recipe uses --inject false. The repair helper applies that supported option to derived outputs, preserves prior files and verifies the generated runtime. No publisher checksums or original downloaded artifacts were changed.
+The smoke harness shutdown race was fixed by using Minecraft's normal shutdown path rather than clearing its world/player mid-tick. The final native run exits successfully.
 
-The earlier apparent daemon failure after successful game shutdown was ForgeGradle's forceExit option. Client and server run configurations now set forceExit false; client audit and world launch commands exit normally.
+Dedicated-server world testing remains unrun; eula=false is preserved pending explicit user agreement. The integrated-world tests do not imply a passed dedicated-server test. Network/source and inventory persistence are tested at the NBT level; complete cross-chunk lifecycle/parity is still unfinished.
 
-Output: build/libs/create-port-1.12.2-0.2.0-dev.jar. This remains an experimental core prototype, not the full Create mod.
+Thirteen blocks have implemented behaviors. Most Create blocks, machines, fluid systems, belts, contraptions and trains remain unported; addons and pollution integration are deferred. See BLOCK-FUNCTIONS.md for exact supported behavior and limits.
+
+Output: create-port-1.12.2-0.3.0-dev.jar. This is a development prototype, not a full Create release.

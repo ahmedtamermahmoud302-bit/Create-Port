@@ -7,5 +7,7 @@
   "unpowered_animation_stopped": true,
   "reversed_server_and_client_speeds": true,
   "createport-reversed.png": true,
+  "createport-energy.png": true,
+  "energy_system_passed": true,
   "passed": true
 }

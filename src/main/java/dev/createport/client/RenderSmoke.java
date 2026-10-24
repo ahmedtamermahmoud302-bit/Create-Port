@@ -116,10 +116,13 @@ public final class RenderSmoke {
                 screenshot = "createport-reversed.png";
                 stage = 7; ticks = 0;
             } else if (stage == 7) {
+                if (!EnergySmoke.run(mc)) return;
+                results.put("energy_system_passed", true);
                 results.put("passed", true);
                 finish = true;
                 save();
-                mc.loadWorld(null);
+                // Use Minecraft's normal shutdown path; unloading here can clear
+                // player mid-tick before vanilla finishes processing key binds.
                 mc.shutdown();
             }
         } catch (Throwable e) {
@@ -127,6 +130,8 @@ public final class RenderSmoke {
             finish = true; save(); mc.shutdown();
         }
     }
+
+    static void capture(String name) { screenshot = name; }
 
     private static void check(Minecraft mc, String label, double shaft, double small, double large) throws Exception {
         BlockPos[] positions = {new BlockPos(1, 65, 0), new BlockPos(2, 66, 0), new BlockPos(2, 67, 1)};

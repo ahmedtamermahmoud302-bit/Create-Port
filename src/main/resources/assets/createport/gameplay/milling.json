@@ -1,0 +1,744 @@
+[
+  {
+    "id": "allium",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 2
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 13,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 5,
+        "count": 2,
+        "chance": 0.1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 9,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "andesite",
+    "input": {
+      "item": "minecraft:stone",
+      "meta": 5
+    },
+    "time": 200,
+    "results": [
+      {
+        "item": "minecraft:cobblestone",
+        "meta": 0,
+        "count": 1,
+        "chance": 1
+      }
+    ]
+  },
+  {
+    "id": "azure_bluet",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 3
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 7,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 15,
+        "count": 2,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "beetroot",
+    "input": {
+      "item": "minecraft:beetroot",
+      "meta": 0
+    },
+    "time": 70,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 1,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:beetroot_seeds",
+        "meta": 0,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "blue_orchid",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 1
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 12,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 7,
+        "count": 1,
+        "chance": 0.05
+      }
+    ]
+  },
+  {
+    "id": "bone",
+    "input": {
+      "item": "minecraft:bone",
+      "meta": 0
+    },
+    "time": 100,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 15,
+        "count": 3,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 15,
+        "count": 1,
+        "chance": 0.25
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 15,
+        "count": 3,
+        "chance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "cactus",
+    "input": {
+      "item": "minecraft:cactus",
+      "meta": 0
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 2,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 2,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "charcoal",
+    "input": {
+      "item": "minecraft:coal",
+      "meta": 1
+    },
+    "time": 100,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 0,
+        "count": 1,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 8,
+        "count": 2,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "clay",
+    "input": {
+      "item": "minecraft:clay",
+      "meta": 0
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:clay_ball",
+        "meta": 0,
+        "count": 4,
+        "chance": 1
+      }
+    ]
+  },
+  {
+    "id": "coal",
+    "input": {
+      "item": "minecraft:coal",
+      "meta": 0
+    },
+    "time": 100,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 0,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 8,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "cobblestone",
+    "input": {
+      "item": "minecraft:cobblestone",
+      "meta": 0
+    },
+    "time": 250,
+    "results": [
+      {
+        "item": "minecraft:gravel",
+        "meta": 0,
+        "count": 1,
+        "chance": 1
+      }
+    ]
+  },
+  {
+    "id": "dandelion",
+    "input": {
+      "item": "minecraft:yellow_flower",
+      "meta": 0
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 11,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 11,
+        "count": 1,
+        "chance": 0.05
+      }
+    ]
+  },
+  {
+    "id": "fern",
+    "input": {
+      "item": "minecraft:tallgrass",
+      "meta": 2
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 2,
+        "count": 1,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:wheat_seeds",
+        "meta": 0,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "granite",
+    "input": {
+      "item": "minecraft:stone",
+      "meta": 1
+    },
+    "time": 200,
+    "results": [
+      {
+        "item": "minecraft:sand",
+        "meta": 1,
+        "count": 1,
+        "chance": 1
+      }
+    ]
+  },
+  {
+    "id": "gravel",
+    "input": {
+      "item": "minecraft:gravel",
+      "meta": 0
+    },
+    "time": 250,
+    "results": [
+      {
+        "item": "minecraft:flint",
+        "meta": 0,
+        "count": 1,
+        "chance": 1
+      }
+    ]
+  },
+  {
+    "id": "large_fern",
+    "input": {
+      "item": "minecraft:double_plant",
+      "meta": 3
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 2,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 2,
+        "count": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "minecraft:wheat_seeds",
+        "meta": 0,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "lilac",
+    "input": {
+      "item": "minecraft:double_plant",
+      "meta": 1
+    },
+    "time": 100,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 13,
+        "count": 3,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 13,
+        "count": 1,
+        "chance": 0.25
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 5,
+        "count": 1,
+        "chance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "orange_tulip",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 5
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 14,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 10,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "oxeye_daisy",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 8
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 7,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 15,
+        "count": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 11,
+        "count": 1,
+        "chance": 0.05
+      }
+    ]
+  },
+  {
+    "id": "peony",
+    "input": {
+      "item": "minecraft:double_plant",
+      "meta": 5
+    },
+    "time": 100,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 9,
+        "count": 3,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 13,
+        "count": 1,
+        "chance": 0.25
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 9,
+        "count": 1,
+        "chance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "pink_tulip",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 7
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 9,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 10,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "poppy",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 0
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 1,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 2,
+        "count": 1,
+        "chance": 0.05
+      }
+    ]
+  },
+  {
+    "id": "red_tulip",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 4
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 1,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 10,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "rose_bush",
+    "input": {
+      "item": "minecraft:double_plant",
+      "meta": 4
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 1,
+        "count": 3,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 2,
+        "count": 2,
+        "chance": 0.05
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 1,
+        "count": 2,
+        "chance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "saddle",
+    "input": {
+      "item": "minecraft:saddle",
+      "meta": 0
+    },
+    "time": 200,
+    "results": [
+      {
+        "item": "minecraft:leather",
+        "meta": 0,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:leather",
+        "meta": 0,
+        "count": 2,
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "id": "sandstone",
+    "input": {
+      "item": "minecraft:sandstone",
+      "meta": 0
+    },
+    "time": 150,
+    "results": [
+      {
+        "item": "minecraft:sand",
+        "meta": 0,
+        "count": 1,
+        "chance": 1
+      }
+    ]
+  },
+  {
+    "id": "short_grass",
+    "input": {
+      "item": "minecraft:tallgrass",
+      "meta": 1
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:wheat_seeds",
+        "meta": 0,
+        "count": 1,
+        "chance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "sugar_cane",
+    "input": {
+      "item": "minecraft:reeds",
+      "meta": 0
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:sugar",
+        "meta": 0,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:sugar",
+        "meta": 0,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "sunflower",
+    "input": {
+      "item": "minecraft:double_plant",
+      "meta": 0
+    },
+    "time": 100,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 11,
+        "count": 3,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 14,
+        "count": 1,
+        "chance": 0.25
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 11,
+        "count": 1,
+        "chance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "tall_grass",
+    "input": {
+      "item": "minecraft:double_plant",
+      "meta": 2
+    },
+    "time": 100,
+    "results": [
+      {
+        "item": "minecraft:wheat_seeds",
+        "meta": 0,
+        "count": 1,
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "id": "terracotta",
+    "input": {
+      "item": "minecraft:hardened_clay",
+      "meta": 0
+    },
+    "time": 200,
+    "results": [
+      {
+        "item": "minecraft:sand",
+        "meta": 1,
+        "count": 1,
+        "chance": 1
+      }
+    ]
+  },
+  {
+    "id": "wheat",
+    "input": {
+      "item": "minecraft:wheat",
+      "meta": 0
+    },
+    "time": 150,
+    "results": [
+      {
+        "item": "createport:wheat_flour",
+        "meta": 0,
+        "count": 1,
+        "chance": 1
+      },
+      {
+        "item": "createport:wheat_flour",
+        "meta": 0,
+        "count": 2,
+        "chance": 0.25
+      },
+      {
+        "item": "minecraft:wheat_seeds",
+        "meta": 0,
+        "count": 1,
+        "chance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "white_tulip",
+    "input": {
+      "item": "minecraft:red_flower",
+      "meta": 6
+    },
+    "time": 50,
+    "results": [
+      {
+        "item": "minecraft:dye",
+        "meta": 15,
+        "count": 2,
+        "chance": 1
+      },
+      {
+        "item": "minecraft:dye",
+        "meta": 10,
+        "count": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "id": "wool",
+    "input": {
+      "item": "minecraft:wool",
+      "meta": 32767
+    },
+    "time": 100,
+    "results": [
+      {
+        "item": "minecraft:string",
+        "meta": 0,
+        "count": 1,
+        "chance": 1
+      }
+    ]
+  }
+]

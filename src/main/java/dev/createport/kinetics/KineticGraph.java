@@ -31,7 +31,14 @@ public final class KineticGraph<K> {
     }
 
     public Map<K, Double> solve() {
+        return solveWithStress(Collections.emptyMap(), Collections.emptyMap()).speeds;
+    }
+
+    public Result<K> solveWithStress(Map<K, Double> capacities, Map<K, Double> impacts) {
+        for (double value : capacities.values()) validateStress(value);
+        for (double value : impacts.values()) validateStress(value);
         Map<K, Double> result = new LinkedHashMap<>();
+        Map<K, Energy> energy = new LinkedHashMap<>();
         for (K root : edges.keySet()) {
             if (result.containsKey(root)) continue;
             Map<K, Double> relative = new LinkedHashMap<>();
@@ -64,10 +71,41 @@ public final class KineticGraph<K> {
             for (double factor : relative.values()) {
                 if (!Double.isFinite(factor * speed)) { speed = 0; break; }
             }
-            for (Map.Entry<K, Double> entry : relative.entrySet())
-                result.put(entry.getKey(), speed * entry.getValue());
+            double capacity = 0, demand = 0;
+            for (Map.Entry<K, Double> entry : relative.entrySet()) {
+                double rpm = Math.abs(speed * entry.getValue());
+                capacity += rpm * capacities.getOrDefault(entry.getKey(), 0.0);
+                demand += rpm * impacts.getOrDefault(entry.getKey(), 0.0);
+            }
+            boolean overloaded = demand > capacity + EPSILON * Math.max(1, capacity);
+            Energy state = new Energy(capacity, demand, overloaded, conflict);
+            for (Map.Entry<K, Double> entry : relative.entrySet()) {
+                result.put(entry.getKey(), overloaded ? 0 : speed * entry.getValue());
+                energy.put(entry.getKey(), state);
+            }
         }
-        return Collections.unmodifiableMap(result);
+        return new Result<>(result, energy);
+    }
+
+    private static void validateStress(double value) {
+        if (!Double.isFinite(value) || value < 0) throw new IllegalArgumentException("Invalid stress coefficient");
+    }
+
+    public static final class Energy {
+        public final double capacity, demand;
+        public final boolean overloaded, conflict;
+        Energy(double capacity, double demand, boolean overloaded, boolean conflict) {
+            this.capacity = capacity; this.demand = demand; this.overloaded = overloaded; this.conflict = conflict;
+        }
+    }
+
+    public static final class Result<K> {
+        public final Map<K, Double> speeds;
+        public final Map<K, Energy> energy;
+        Result(Map<K, Double> speeds, Map<K, Energy> energy) {
+            this.speeds = Collections.unmodifiableMap(speeds);
+            this.energy = Collections.unmodifiableMap(energy);
+        }
     }
 
     private static boolean near(double a, double b) {

@@ -2,7 +2,7 @@ package dev.createport.kinetics;
 
 /** Geometric connections for the prototype's four block types. */
 public final class RotationRules {
-    public enum Kind { MOTOR, SHAFT, SMALL, LARGE }
+    public enum Kind { MOTOR, SHAFT, SMALL, LARGE, ENCASED, GEARBOX, CLUTCH, GEARSHIFT, CRANK, WATER_WHEEL, MILLSTONE }
     public enum Axis { X, Y, Z }
     private RotationRules() {}
 

@@ -30,13 +30,13 @@ sprites; 27 templates remain available as resources.
 
 ## Active block renderers
 
-KineticRenderer renders the implemented shafts/cogs and motor output shaft as TESRs.
+KineticRenderer renders shafts/cogs, generator shafts, directional crank handles, the water wheel, millstone internals and per-port split shafts as TESRs.
 It uses interpolated client angles and synchronized RPM, preserves the block axis,
 applies cog phase offsets, binds the block atlas, and restores matrix/lighting state.
 The creative motor's stationary housing is a normal baked block model. Non-cubic
 blocks no longer report full opaque cubes, so neighbours are not incorrectly culled.
 
-This does not make unregistered source blocks placeable. Connected texture selection,
+The 0.3.0-dev gameplay layer registers 13 blocks; this does not make the other source blocks placeable. Connected texture selection,
 animated belts, fluids, train/contraption entities, other machine-specific animation,
 collision shapes and breaking overlays still require their own ports. Resource
 coverage is distinct from main-mod feature or renderer parity.

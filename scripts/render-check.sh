@@ -49,5 +49,9 @@ if sys.argv[1] == 'renderSmoke':
     assert path.stat().st_mtime >= started, 'Stale world smoke result'
     result = json.loads(path.read_text())
     assert result.get('passed') is True, result
+    assert result.get('energy_system_passed') is True, result
+    path = Path('run/energy-smoke.json')
+    assert path.stat().st_mtime >= started, 'Stale energy-world result'
+    assert json.loads(path.read_text()).get('passed') is True
 print('Passed current-run model bake' + (' and client-world render checks' if sys.argv[1] == 'renderSmoke' else ' checks'))
 PY
