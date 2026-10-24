@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "create:block/palettes/weathered_iron_window",
+    "edge": "create:block/palettes/weathered_iron_window_pane_top",
+    "pane": "create:block/palettes/weathered_iron_window"
+  },
+  "display": {},
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "texture": "#pane"
+        }
+      }
+    }
+  ],
+  "ambientocclusion": false
+}

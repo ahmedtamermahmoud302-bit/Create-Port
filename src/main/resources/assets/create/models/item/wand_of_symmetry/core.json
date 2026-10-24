@@ -1,0 +1,165 @@
+{
+  "ambientocclusion": false,
+  "parent": "minecraft:block/block",
+  "textures": {
+    "0": "createport:compat/minecraft/block/obsidian",
+    "2": "createport:compat/minecraft/block/dark_oak_log",
+    "6": "create:block/brass_block",
+    "7": "create:block/andesite_casing",
+    "particle": "create:block/brass_block",
+    "5": "createport:compat/minecraft/block/white_concrete_powder"
+  },
+  "elements": [
+    {
+      "name": "Rod Core",
+      "from": [
+        7.0,
+        18.0,
+        7.0
+      ],
+      "to": [
+        9.0,
+        26.0,
+        9.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#5",
+          "uv": [
+            10.0,
+            3.0,
+            12.0,
+            11.0
+          ]
+        },
+        "east": {
+          "texture": "#5",
+          "uv": [
+            13.0,
+            6.0,
+            15.0,
+            14.0
+          ]
+        },
+        "south": {
+          "texture": "#5",
+          "uv": [
+            11.0,
+            6.0,
+            13.0,
+            14.0
+          ]
+        },
+        "west": {
+          "texture": "#5",
+          "uv": [
+            11.0,
+            4.0,
+            13.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#5",
+          "uv": [
+            14.0,
+            0.0,
+            16.0,
+            2.0
+          ]
+        },
+        "down": {
+          "texture": "#5",
+          "uv": [
+            14.0,
+            6.0,
+            16.0,
+            8.0
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        15,
+        0,
+        0
+      ],
+      "translation": [
+        -1,
+        1,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        15,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -2
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        4.2,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "gui": {
+      "rotation": [
+        42,
+        135,
+        32
+      ],
+      "translation": [
+        -1.7,
+        -1.7,
+        3
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        -2.5,
+        -0.75
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

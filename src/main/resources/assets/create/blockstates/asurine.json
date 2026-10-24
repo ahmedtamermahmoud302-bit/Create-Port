@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "create:asurine_natural_0"
+      },
+      {
+        "model": "create:asurine_natural_1"
+      },
+      {
+        "model": "create:asurine_natural_2"
+      },
+      {
+        "model": "create:asurine_natural_3"
+      }
+    ]
+  }
+}

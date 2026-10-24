@@ -1,0 +1,165 @@
+{
+  "ambientocclusion": false,
+  "parent": "minecraft:block/block",
+  "textures": {
+    "0": "createport:compat/minecraft/block/obsidian",
+    "2": "createport:compat/minecraft/block/dark_oak_log",
+    "6": "create:block/brass_block",
+    "7": "create:block/andesite_casing",
+    "particle": "create:block/brass_block",
+    "3": "createport:compat/minecraft/block/white_stained_glass"
+  },
+  "elements": [
+    {
+      "name": "Cube",
+      "from": [
+        6.5,
+        17.5,
+        6.5
+      ],
+      "to": [
+        9.5,
+        26.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#3",
+          "uv": [
+            10.0,
+            5.0,
+            13.0,
+            13.0
+          ]
+        },
+        "east": {
+          "texture": "#3",
+          "uv": [
+            5.0,
+            3.0,
+            8.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "#3",
+          "uv": [
+            7.0,
+            6.0,
+            10.0,
+            14.0
+          ]
+        },
+        "west": {
+          "texture": "#3",
+          "uv": [
+            7.0,
+            4.0,
+            4.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "#3",
+          "uv": [
+            7.0,
+            5.0,
+            10.0,
+            8.0
+          ]
+        },
+        "down": {
+          "texture": "#3",
+          "uv": [
+            9.0,
+            3.0,
+            12.0,
+            6.0
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        15,
+        0,
+        0
+      ],
+      "translation": [
+        -1,
+        1,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        15,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -2
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        4.2,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "gui": {
+      "rotation": [
+        42,
+        135,
+        32
+      ],
+      "translation": [
+        -1.7,
+        -1.7,
+        3
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        -2.5,
+        -0.75
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

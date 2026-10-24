@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_deepslate_slab"
+    },
+    "type=double": {
+      "model": "create:cut_deepslate"
+    },
+    "type=top": {
+      "model": "create:cut_deepslate_slab_top"
+    }
+  }
+}

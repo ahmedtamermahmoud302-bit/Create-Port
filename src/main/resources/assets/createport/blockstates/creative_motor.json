@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create:creative_motor/block",
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create:creative_motor/block",
+      "x": 90
+    },
+    "axis=z": {
+      "model": "create:creative_motor/block"
+    }
+  }
+}

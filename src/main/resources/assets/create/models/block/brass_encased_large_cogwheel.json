@@ -1,0 +1,149 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "1": "createport:compat/minecraft/block/stripped_dark_oak_log_top",
+    "particle": "create:block/brass_casing",
+    "casing": "create:block/brass_casing",
+    "side": "create:block/brass_encased_cogwheel_side_connected",
+    "4": "create:block/brass_gearbox"
+  },
+  "display": {},
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        6,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            13,
+            16,
+            16
+          ],
+          "texture": "#side"
+        },
+        "east": {
+          "uv": [
+            8,
+            13,
+            16,
+            16
+          ],
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            8,
+            13,
+            16,
+            16
+          ],
+          "texture": "#side"
+        },
+        "west": {
+          "uv": [
+            8,
+            13,
+            16,
+            16
+          ],
+          "texture": "#side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#casing"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        10,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            8,
+            16,
+            11
+          ],
+          "texture": "#side"
+        },
+        "east": {
+          "uv": [
+            8,
+            8,
+            16,
+            11
+          ],
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            8,
+            8,
+            16,
+            11
+          ],
+          "texture": "#side"
+        },
+        "west": {
+          "uv": [
+            8,
+            8,
+            16,
+            11
+          ],
+          "texture": "#side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#casing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ]
+}

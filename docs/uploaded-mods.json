@@ -1,0 +1,1806 @@
+[
+  {
+    "file": "interiors-0.6.1 v3.jar",
+    "sha256": "d230a2960dcb0c3d5753bc1d4adb71c8c18c9491b8e3cfd4a6b56533dae7a2c6",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[1,)",
+      "license": "MIT",
+      "issueTrackerURL": "https://github.com/aesefficio/CreateInteriorsMod/issues",
+      "mods": [
+        {
+          "modId": "interiors",
+          "version": "0.6.1",
+          "displayName": "Create: Interiors",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/interiors",
+          "issueTrackerURL": "https://github.com/aesefficio/CreateInteriorsMod/issues",
+          "logoFile": "assets/interiors/icon.png",
+          "authors": "sudolev, rdh",
+          "description": "Create: Interiors is a new take on furniture, adding functional blocks that mesh seamlessly with the aesthetic and principles of the Create mod.\n"
+        }
+      ],
+      "dependencies": {
+        "interiors": [
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "modproperties": {
+        "interiors": {
+          "catalogueImageIcon": "assets/interiors/icon.png",
+          "catalogueBackground": "mod_banner.png",
+          "configuredBackground": "create:textures/block/seat/top_red.png"
+        }
+      },
+      "mixins": [
+        {
+          "config": "interiors.mixins.json"
+        }
+      ]
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "moderntrainparts-0.2.5-neoforge-mc1.21.1-cr6.0.10.jar",
+    "sha256": "847680fc2bfc564dfd1b8333492408546499a3327b5d3566854652701904e781",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[1,)",
+      "license": "All Rights Reserved",
+      "issueTrackerURL": "https://github.com/Violet/realistic-railroads/issues",
+      "mods": [
+        {
+          "modId": "moderntrainparts",
+          "version": "0.2.5",
+          "displayName": "Modern Train Parts",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/create-modern-train-parts",
+          "logoFile": "icon.png",
+          "authors": "Dugkse, FaceSt4b_",
+          "description": "This is a create addon that aims to implement modern railway systems, cargo and deco blocks for create trains.\n"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "moderntrainparts.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "moderntrainparts": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.248,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.10,6.1.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "create-new-age-1.2.0+neoforge-mc1.21.1.jar",
+    "sha256": "a217ea21ccc8364e99d86777e519436bc7c94516df9737ad0103047e48a44717",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "*",
+      "license": "BSD-3-Clause",
+      "issueTrackerURL": "https://gitlab.com/antarcticgardens/create-new-age",
+      "showAsResourcePack": false,
+      "mods": [
+        {
+          "modId": "create_new_age",
+          "version": "1.2.0+mc1.21.1",
+          "displayName": "Create: New Age",
+          "logoFile": "icon.png",
+          "authors": "Antarctic Gardens",
+          "description": "An addon for the Create mod that adds integration with electricity",
+          "displayTest": "MATCH_VERSION",
+          "displayURL": "https://antarcticgardens.org/"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "create_new_age-neoforge.mixins.json"
+        },
+        {
+          "config": "create_new_age-common.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "create_new_age": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.209,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "esl",
+            "type": "required",
+            "versionRange": "[1.0.3]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.9,6.1.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "computercraft",
+            "type": "optional",
+            "versionRange": "[1.116.2,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [
+      "META-INF/jars/esl-neoforge-1.21.1-1.0.3+neoforge-mc1.21.1.jar",
+      "META-INF/jars/mixinextras-neoforge-0.5.0.jar"
+    ],
+    "license_files": []
+  },
+  {
+    "file": "sable-neoforge-1.21.1-2.0.6.jar",
+    "sha256": "9c199157843bf953a47dff625fc5bb41c01a90538d35ad18e6996bbcb8a617c2",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "issueTrackerURL": "https://github.com/ryanhcode/sable/issues",
+      "license": "PolyForm Shield License 1.0.0",
+      "mods": [
+        {
+          "modId": "sable",
+          "version": "2.0.6",
+          "displayName": "Sable",
+          "authors": "RyanHCode",
+          "credits": "Ocelot, Eriksonn, Cyvack, Bee, Kyan, Cake, Rhyguy1",
+          "description": "Interactive moving block structures with physics.",
+          "logoFile": "icon.png",
+          "logoBlur": false
+        }
+      ],
+      "lithium:options": {
+        "mixin.entity.collisions.unpushable_cramming": false,
+        "mixin.world.chunk_access": false,
+        "mixin.world.chunk_ticking": false,
+        "mixin.world.tick_scheduler": false
+      },
+      "mixins": [
+        {
+          "config": "sable.mixins.json"
+        },
+        {
+          "config": "sable-neoforge.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "sable": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.228,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "flywheel",
+            "type": "optional",
+            "versionRange": "[1.0.6,)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "create",
+            "type": "optional",
+            "versionRange": "[6.0.10,6.1.0)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "sablecompanion",
+            "type": "incompatible",
+            "versionRange": "(1.6.0,)",
+            "reason": "Sable is out of date"
+          },
+          {
+            "modId": "sodium",
+            "type": "incompatible",
+            "versionRange": "(,0.8.12-alpha.2+mc1.21.1)",
+            "reason": "Sable supports Sodium 0.8.12-alpha.2+mc1.21.1 and above"
+          },
+          {
+            "modId": "scalablelux",
+            "type": "incompatible"
+          }
+        ]
+      }
+    },
+    "nested_jars": [
+      "META-INF/jarjar/dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar",
+      "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "META-INF/jarjar/veil-neoforge-1.21.1-4.3.2.jar"
+    ],
+    "license_files": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "file": "cbc_going_ballistic-0.3.1.jar",
+    "sha256": "0c06454df5b7a2e6d1b82e001e761fc997e4efc7c1028f2401b608149132df25",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "All Rights Reserved",
+      "mods": [
+        {
+          "modId": "cbc_going_ballistic",
+          "version": "0.3.1",
+          "displayName": "Create Big Cannons: Going Ballistic",
+          "logoFile": "cbc_going_ballistic.png",
+          "authors": "Hectoris919",
+          "description": "Lets projectiles travel much further by replacing the ballistics calculation for projectiles in Create: Big Cannons"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "cbc_going_ballistic.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "cbc_going_ballistic": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.7,6.1.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ritchiesprojectilelib",
+            "type": "required",
+            "versionRange": "[2.1.2,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "createbigcannons",
+            "type": "required",
+            "versionRange": "[5.11.7,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "create-1.21.1-6.0.10.jar",
+    "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[0,)",
+      "issueTrackerURL": "https://github.com/Creators-of-Create/Create/issues",
+      "license": "Read attached LICENSE.md",
+      "mods": [
+        {
+          "modId": "create",
+          "version": "6.0.10",
+          "displayName": "Create",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/create",
+          "updateJSONURL": "https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only",
+          "logoFile": "icon.png",
+          "authors": "simibubi",
+          "description": "Technology that empowers the player."
+        }
+      ],
+      "mixins": [
+        {
+          "config": "create.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "create": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.219,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "flywheel",
+            "type": "required",
+            "versionRange": "[1.0.0,2.0)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "ponder",
+            "type": "required",
+            "versionRange": "[1.0.82,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sodium",
+            "type": "optional",
+            "reason": "Versions before 0.6.9 do not include the neccesary APIs Create needs to work properly with Sodium.",
+            "versionRange": "[0.6.9,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "lithium",
+            "type": "optional",
+            "reason": "Versions before 0.14.7 crash when paired with Create, Update Lithium.",
+            "versionRange": "[0.14.7,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "journeymap",
+            "type": "optional",
+            "reason": "Versions before 1.21.1-6.0.0-beta.46 do not contain the APIs Create requires to work with JourneyMap.",
+            "versionRange": "[1.21.1-6.0.0-beta.46,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "xaeroworldmap",
+            "type": "optional",
+            "reason": "Versions before 1.40.2 do not contain the classes Create requires to work with Xaero's World Map.",
+            "versionRange": "[1.40.2,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "radium",
+            "type": "incompatible",
+            "reason": "Radium is a unofficial port of Lithium, Lithium is now natively available for NeoForge and does not suffer from the same issues radium does, use Lithium instead.",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "palladium",
+            "type": "incompatible",
+            "reason": "Palladium does not improve memory usage by anything meaningful, and results in broken visuals for Create's blocks with connected textures.",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [
+      "META-INF/jarjar/flywheel-neoforge-1.21.1-1.0.6.jar",
+      "META-INF/jarjar/ponder-neoforge-1.0.82+mc1.21.1.jar",
+      "META-INF/jarjar/Registrate-MC1.21-1.3.0+67.jar"
+    ],
+    "license_files": [
+      "LICENSE.md_create-1.21.1"
+    ]
+  },
+  {
+    "file": "geckolib-forge-1.12.2-3.0.31.jar",
+    "sha256": "b00bc9de4e3e94cea0455f8d58b295c1464272135e842bdf3170c2c955c871a5",
+    "metadata_format": "META-INF/mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[31,)",
+      "issueTrackerURL": "https://github.com/bernie-g/geckolib/issues",
+      "mods": [
+        {
+          "modId": "geckolib3",
+          "version": "${file.jarVersion}",
+          "displayName": "GeckoLib Example Mod",
+          "displayURL": "http://geckolib.com/",
+          "logoFile": "geckolib.png",
+          "credits": "Gecko, Eliot",
+          "authors": "Gecko, Eliot",
+          "description": "GeckoLib is an animation engine for modders. It supports forward-kinematic animations and renders bedrock entity geo models."
+        }
+      ],
+      "dependencies": {
+        "geckolib": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[31,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.15, 1.16)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": [
+      "META-INF/LICENSE",
+      "META-INF/LICENSE.txt"
+    ]
+  },
+  {
+    "file": "wariumce-1.0.4.jar",
+    "sha256": "aa0dd2fa8b5c8c2b4fff40b4fe2189d94bc9d07240f43a5e6af95d109b39e27e",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[1,)",
+      "license": "All Rights Reserved",
+      "mods": [
+        {
+          "modId": "wariumce",
+          "version": "1.0.4",
+          "displayName": "WariumCE",
+          "authors": "TheMCGuy101, Novum",
+          "description": "WariumCE, the community edition of Warium\n"
+        }
+      ],
+      "dependencies": {
+        "wariumce": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.248,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "geckolib",
+            "type": "required",
+            "versionRange": "[4.8.4,5)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "geckolib-neoforge-1.21.1-4.9.3.jar",
+    "sha256": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "issueTrackerURL": "https://github.com/bernie-g/geckolib/issues",
+      "license": "MIT",
+      "mods": [
+        {
+          "modId": "geckolib",
+          "version": "4.9.3",
+          "displayName": "GeckoLib 4",
+          "displayURL": "http://geckolib.com/",
+          "logoFile": "geckolib.png",
+          "credits": "Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin",
+          "authors": "Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin",
+          "description": "GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more.\n"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "geckolib.mixins.json"
+        }
+      ],
+      "accessTransformers": [
+        {
+          "file": "META-INF/accesstransformer.cfg"
+        }
+      ],
+      "dependencies": {
+        "geckolib": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.150,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "geckoanimfix",
+            "type": "incompatible",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": [
+      "GECKOLIB_LICENSE"
+    ]
+  },
+  {
+    "file": "bjornlib-neoforge-1.0.88-1.21.1.jar",
+    "sha256": "55f77fce4ce0f6cf1cf0d6fdf97219b03afdf958e589192b4945e222448f8358",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[3,)",
+      "issueTrackerURL": "https://www.curseforge.com/minecraft/mc-mods/bjornlib",
+      "license": "ALL RIGHTS RESERVED",
+      "mods": [
+        {
+          "modId": "bjornlib",
+          "version": "1.0.88",
+          "displayName": "BjornLib",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/bjornlib",
+          "logoFile": "icon.png",
+          "credits": "furiusmax",
+          "authors": "furiusmax",
+          "description": "lib"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "bjornlib.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "bjornlib": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": [
+      "LICENSE_BjornLib"
+    ]
+  },
+  {
+    "file": "pollutionofcreate-1.21.1-0.0.4.jar",
+    "sha256": "f0642227cef2047c1497ea8a77fac858f5158bc459c37769730414167f8b970e",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "MIT",
+      "mods": [
+        {
+          "modId": "pollutionofcreate",
+          "version": "1.21.1-0.0.4",
+          "displayName": "Pollution of Create",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/pollution-of-create",
+          "logoFile": "logo.png",
+          "authors": "flaulox",
+          "description": "Addon for the Create Mod Backtank to work with Pollution of the Realm."
+        }
+      ],
+      "mixins": [
+        {
+          "config": "pollutionofcreate.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "pollutionofcreate": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "mandatory": true,
+            "versionRange": "[6.0.6,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "adpother",
+            "mandatory": true,
+            "versionRange": "[9.0.3.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "simulatedcoasters-0.1.5.jar",
+    "sha256": "f80b4c3cdf9fa6188804967147761b0373e150a6eadbdc53626e5ac9700b2049",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "MIT",
+      "mods": [
+        {
+          "modId": "simulatedcoasters",
+          "version": "0.1.5",
+          "displayName": "Create: Coasters Simulated",
+          "logoFile": "logo.png",
+          "description": "Create add-on: rollercoasters using Create mechanisms with Sable physics.\n"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "simulatedcoasters.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "simulatedcoasters": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.228,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.10,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "flywheel",
+            "type": "required",
+            "versionRange": "[1.0.6,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "sable",
+            "type": "required",
+            "versionRange": "[2.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "AdPother-1.21.1-9.1.12.0-NeoForge-build.1184.jar",
+    "sha256": "9e3652138c2de41dbbd6d038a0574f94e70d52cd82e95b5271191fdbb0fd49ee",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "All rights reserved",
+      "issueTrackerURL": "https://www.curseforge.com/minecraft/mc-mods/pollution-of-the-realms/issues",
+      "mods": [
+        {
+          "modId": "adpother",
+          "version": "9.1.12.0",
+          "displayName": "Pollution of the Realms",
+          "updateJSONURL": "https://neoforge.curseupdate.com/269973/adpother",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/pollution-of-the-realms",
+          "logoFile": "logo.png",
+          "authors": "EnderLanky",
+          "description": "Adds environmental pollution mechanics to the game.\n"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "adpother.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "adpother": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "forgeendertech",
+            "type": "required",
+            "versionRange": "[12.1.4.0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "create_chimneys-1.4.1.jar",
+    "sha256": "03e9af361f7060890dbc06b4870726ecb16906f67b0b1e789f3c93cea8029b5d",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[1,)",
+      "license": "All Rights Reserved",
+      "mods": [
+        {
+          "modId": "create_chimneys",
+          "version": "1.4.1",
+          "displayName": "Create Chimneys",
+          "authors": "furiusmax",
+          "description": "Chimneys"
+        }
+      ],
+      "dependencies": {
+        "create_chimneys": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.170,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "tfmg-1.2.0.jar",
+    "sha256": "fc824a91cfe22e137c9014ed608ee9bf35f16490d2162b687666332c6eb3a555",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "MIT",
+      "mods": [
+        {
+          "modId": "tfmg",
+          "version": "1.2.0",
+          "displayName": "Create: The Factory Must Grow",
+          "authors": "DrMangoTea, Pepa, Luna",
+          "description": "Create: The Factory Must Grow brings the age of steel, oil and electricity to the Create mod"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "tfmg.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "tfmg": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.6,)",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "create_radar-0.4.9.4-1.21.1.jar",
+    "sha256": "4554359fee389b1c255b4cef23ac41e978b2a371cec9e952185f4ec0a90ee930",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "custom",
+      "mods": [
+        {
+          "modId": "create_radar",
+          "version": "0.4.9.4-1.21.1",
+          "displayName": "Create: Radars",
+          "authors": "Aycer, HappySG, CeoOfGoogle, Kipti, OndatraCZE, Ray(furuochen)",
+          "description": "Welcome to Create Radars, a mod offering a variety of tools and blocks for Surveillance, Detection, and Controlling Weapons."
+        }
+      ],
+      "mixins": [
+        {
+          "config": "create_radar.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "create_radar": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,1.21.2)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.10,6.1.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "createbigcannons",
+            "type": "required",
+            "versionRange": "[5.11.2,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "valkyrienskies",
+            "type": "optional",
+            "versionRange": "[2.4.7,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "shupapium",
+            "type": "optional",
+            "versionRange": "[1.0,2.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "computercraft",
+            "type": "optional",
+            "versionRange": "[1.113.0,2.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [
+      "META-INF/jarjar/sable-companion-common-1.21.1-1.5.0.jar"
+    ],
+    "license_files": []
+  },
+  {
+    "file": "ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar",
+    "sha256": "ebb404e02aeb74424c079c797023967f6ec96c42e25bd08d86b9189f64f51152",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "All rights reserved",
+      "issueTrackerURL": "https://www.curseforge.com/minecraft/mc-mods/forgeendertech/issues",
+      "mods": [
+        {
+          "modId": "forgeendertech",
+          "version": "12.1.4.0",
+          "displayName": "ForgeEndertech",
+          "displayTest": "IGNORE_SERVER_VERSION",
+          "updateJSONURL": "https://neoforge.curseupdate.com/244844/forgeendertech",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/forgeendertech",
+          "logoFile": "logo.png",
+          "authors": "EnderLanky",
+          "description": "Contains all shared classes for Endertech mods.\n"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "forgeendertech.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "forgeendertech": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+    "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "lowcodefml",
+      "loaderVersion": "[4,)",
+      "license": "Read attached LICENSE.md",
+      "mods": [
+        {
+          "modId": "aeronautics_bundled",
+          "version": "1.3.2",
+          "displayName": "Create Aeronautics",
+          "logoFile": "aeronautics_bundled.png",
+          "credits": "",
+          "authors": "Simulated Team",
+          "description": "Expands the Create mod with physics-based contraptions, to build anything from cars to planes. This is a bundled JAR that contains Simulated, Aeronautics, and Offroad."
+        }
+      ],
+      "dependencies": {
+        "aeronautics_bundled": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.228,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [
+      "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar",
+      "META-INF/jarjar/dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar",
+      "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar"
+    ],
+    "license_files": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "file": "tracks_plus-1.0.5.jar",
+    "sha256": "b2a8cb466cfce2cbf0078e713ae0500c332aed95b4e1819d17e3539282d8515b",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[1,)",
+      "license": "MIT License",
+      "mods": [
+        {
+          "modId": "tracks",
+          "version": "1.0.5",
+          "displayName": "Create Tracks+",
+          "logoFile": "icon.png",
+          "credits": "Uses Trackwork art assets as placeholders. Special Thanks to original Create:Tracks author.",
+          "authors": "ChiyahaRe",
+          "description": "Fork of Addon for Create: Simulated Offroad that adds adjustable suspension keys and Sable-powered track blocks. More Create: Trackwork like features added."
+        }
+      ],
+      "mixins": [
+        {
+          "config": "tracks.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "tracks": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "21.1.230",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.9,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sable",
+            "type": "required",
+            "versionRange": "[1.0.3,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "simulated",
+            "type": "required",
+            "versionRange": "[1.0.1,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "offroad",
+            "type": "required",
+            "versionRange": "[1.0.1,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": [
+      "assets/trackwork/LICENSE-ARR",
+      "assets/trackwork/LICENSE.txt"
+    ]
+  },
+  {
+    "file": "bellsandwhistles-0.4.7-1.21.1.jar",
+    "sha256": "a438cf2ea3a05120e12342484f1e12ca11526fbf4195d259ce1d7df8a9b3ffca",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "GPL-3.0",
+      "mods": [
+        {
+          "modId": "bellsandwhistles",
+          "version": "0.4.7-1.21.1",
+          "displayName": "Create: Bells & Whistles",
+          "authors": "lev",
+          "description": "Create: Bells & Whistles is an add-on for the Create mod that focuses on the player experience, adding various new decorative and utility features."
+        }
+      ],
+      "dependencies": {
+        "bellsandwhistles": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.0.0-beta,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.21,1.21.2)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "mandatory": true,
+            "versionRange": "[6.0.2,6.1.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "AdPother-1.12.2-1.2.25.0-build.0673.jar",
+    "sha256": "7f9698b2416612e1b8a5ff51d08efe0c59b26eb17aeeb7aa7e715b143b3faca4",
+    "metadata_format": "mcmod.info",
+    "metadata": [
+      {
+        "modid": "adpother",
+        "name": "Pollution of the Realms",
+        "description": "Adds environmental pollution mechanics to the game.",
+        "version": "1.12.2-1.2.25.0",
+        "mcversion": "1.12.2",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/pollution-of-the-realms",
+        "updateUrl": "",
+        "authorList": [
+          "EnderLanky"
+        ],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": [
+          "ForgeEndertech"
+        ]
+      }
+    ],
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "arcon-1.0.0.jar",
+    "sha256": "5376bdbfb0728d5eed03a640cbbfe6e6fcfcb9b76a99b5b9a445debb2f96fc8d",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[1,)",
+      "license": "All Rights Reserved",
+      "mods": [
+        {
+          "modId": "arcon",
+          "version": "1.0.0",
+          "displayName": "Create: Armored Constructs",
+          "logoFile": "icon.png",
+          "description": "Create: Armored Constructs \u2014 \u0431\u0440\u043e\u043d\u0435\u0432\u044b\u0435 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0434\u043b\u044f Create \u0438 Create: Big Cannons. (NeoForge 1.21.1)\n",
+          "authors": "Delzzi"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "arcon.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "arcon": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1,22.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.7,6.1.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "copycats",
+            "type": "optional",
+            "versionRange": "[3.0.0,4.0.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "createbigcannons",
+            "type": "required",
+            "versionRange": "[5.11.0,6.0.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sable",
+            "type": "required",
+            "versionRange": "[1.0.0,3.0.0)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "createdieselgenerators-1.21.1-1.3.15.jar",
+    "sha256": "56ef1d574278fc311f1ffa223dbd613077b899354a18d01ae8dca2578a4e2990",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[1,)",
+      "license": "MIT",
+      "logoFile": "logo.png",
+      "mods": [
+        {
+          "modId": "createdieselgenerators",
+          "version": "1.21.1-1.3.15",
+          "displayName": "Create Diesel Generators",
+          "authors": "George VI",
+          "description": "Diesel Generators, Oil processing."
+        }
+      ],
+      "mixins": [
+        {
+          "config": "createdieselgenerators.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "createdieselgenerators": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.174,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.7,6.1.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "struts",
+            "type": "optional",
+            "versionRange": "[1.3.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [
+      "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    ],
+    "license_files": []
+  },
+  {
+    "file": "ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+    "sha256": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "issueTrackerURL": "https://github.com/Wagers-of-Industrial-Warfare/RitchiesProjectileLib/issues",
+      "license": "MIT License",
+      "mods": [
+        {
+          "modId": "ritchiesprojectilelib",
+          "version": "2.1.2",
+          "displayName": "Ritchie's Projectile Library",
+          "authors": "rbasamoyai",
+          "description": "A Minecraft modding library for better projectiles.",
+          "logoFile": "icon.png"
+        }
+      ],
+      "dependencies": {
+        "ritchiesprojectilelib": [
+          {
+            "modId": "neoforge",
+            "mandatory": true,
+            "versionRange": "[21.1.206,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.21.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "create_bb-1.0.8-1.21.1.jar",
+    "sha256": "36a1cf8eaef08254085f9190b6a3130dd787747ee30fb8eeb606d6a6e0f9bf4f",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "MIT",
+      "mods": [
+        {
+          "modId": "create_bb",
+          "version": "1.0.8",
+          "displayName": "Create: Blocks & Bogies",
+          "authors": "Weido's Oddities (@weidos.oddities), teacup (@t__cup), Matt",
+          "description": "Blocks & Bogies is a Create addon that adds an abundance of different bogie styles to choose from!"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "create_bb.mixins.json"
+        },
+        {
+          "config": "create_bb.snr.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "create_bb": [
+          {
+            "modId": "create",
+            "mandatory": true,
+            "versionRange": "[6.0.7,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "railways",
+            "type": "optional",
+            "versionRange": "[0.1.0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "create_hypertube-0.6.0-NEOFORGE.jar",
+    "sha256": "7bdb8979c7ff7d3b29f7a23771b6ae4870a6dcb7ce2e4a3214fdd6059aacace8",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "Apache License 2.0",
+      "mods": [
+        {
+          "modId": "create_hypertube",
+          "version": "0.6.0",
+          "displayName": "Create Hypertube",
+          "displayURL": "pedrorok.com",
+          "authors": "Rok",
+          "description": "Adding a new way to move in your world",
+          "logoFile": "icon.png"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "create_hypertube.mixins.json"
+        },
+        {
+          "config": "conflict_fix.mixins.json"
+        }
+      ],
+      "dependencies": {
+        "create_hypertube": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.4,6.1.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "betterthirdperson",
+            "type": "optional"
+          },
+          {
+            "modId": "sable",
+            "type": "optional",
+            "versionRange": "[1.2.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "copycats-3.0.9+mc.1.21.1-neoforge.jar",
+    "sha256": "d1efdd8688af6603dff9425299ac4547ef56a7d5cfee757716ead7853276694e",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[1,)",
+      "license": "All Rights Reserved",
+      "issueTrackerURL": "https://github.com/copycats-plus/copycats/issues",
+      "mods": [
+        {
+          "modId": "copycats",
+          "version": "3.0.9+mc.1.21.1-neoforge",
+          "displayName": "Create: Copycats+",
+          "updateJSONURL": "https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json",
+          "displayURL": "https://github.com/copycats-plus/copycats",
+          "logoFile": "copycats_icon.png",
+          "credits": "The Create: Addon Hub Discord",
+          "authors": "Lysine, Bennyboy1695, Redcat_XVIII",
+          "description": "All the copycats you've ever wanted, combined into a single mod!"
+        }
+      ],
+      "dependencies": {
+        "copycats": [
+          {
+            "modId": "neoforge",
+            "mandatory": true,
+            "versionRange": "[21.1.200,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.21.1,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "mandatory": true,
+            "versionRange": "[6.0.8,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "mixins": [
+        {
+          "config": "copycats-common.mixins.json"
+        },
+        {
+          "config": "copycats-neoforge.mixins.json"
+        }
+      ]
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "shield_generators-1.4.0.jar",
+    "sha256": "c33de4c321fc228f709d459f3b40e23217356a554dd5aae586fd5e2bd4743db3",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "license": "All Rights Reserved",
+      "mods": [
+        {
+          "modId": "shield_generators",
+          "version": "1.4.0",
+          "displayName": "Shield Generators",
+          "description": "Adds shield generator blocks that project Holtzmann-style shields around Sable objects and stop fast projectiles.\n"
+        }
+      ],
+      "dependencies": {
+        "shield_generators": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.228,21.2.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.10,6.1.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "aeronautics",
+            "type": "optional",
+            "versionRange": "[0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "aeronautics_bundled",
+            "type": "optional",
+            "versionRange": "[0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sable",
+            "type": "required",
+            "versionRange": "[2.0.3,3.0.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sablecompanion",
+            "type": "required",
+            "versionRange": "[1.6.0,1.7.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "createbigcannons",
+            "type": "optional",
+            "versionRange": "[0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "scguns",
+            "type": "optional",
+            "versionRange": "[0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  },
+  {
+    "file": "createbigcannons-5.11.7+mc.1.21.1.jar",
+    "sha256": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca",
+    "metadata_format": "META-INF/neoforge.mods.toml",
+    "metadata": {
+      "modLoader": "javafml",
+      "loaderVersion": "[4,)",
+      "issueTrackerURL": "https://github.com/Cannoneers-of-Create/CreateBigCannons/issues",
+      "license": "MIT and CC BY-NC-SA (see github for details)",
+      "mods": [
+        {
+          "modId": "createbigcannons",
+          "version": "5.11.7",
+          "displayName": "Create Big Cannons",
+          "authors": "rbasamoyai",
+          "description": "Artillery engineering comes to Create\nAttributions:\nLogo by Milkyfur\nTextures by rbasamoyai, Milkyfur, and LopyLuna\n",
+          "logoFile": "icon.png"
+        }
+      ],
+      "mixins": [
+        {
+          "config": "createbigcannons.mixins.json"
+        }
+      ],
+      "accessTransformers": [
+        {
+          "file": "META-INF/accesstransformer.cfg"
+        }
+      ],
+      "dependencies": {
+        "createbigcannons": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "21.1.228",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "type": "required",
+            "versionRange": "[6.0.7,6.1.0)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ritchiesprojectilelib",
+            "type": "required",
+            "versionRange": "[2.1.2,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "copycats",
+            "type": "optional",
+            "versionRange": "[3.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "framedblocks",
+            "type": "optional",
+            "versionRange": "[10.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "curios",
+            "type": "optional",
+            "versionRange": "[9.2.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sable",
+            "type": "optional",
+            "versionRange": "[2.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "simulated",
+            "type": "optional",
+            "versionRange": "[1.3.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "aeronautics",
+            "type": "optional",
+            "versionRange": "[1.3.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "offroad",
+            "type": "optional",
+            "versionRange": "[1.3.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    },
+    "nested_jars": [],
+    "license_files": []
+  }
+]

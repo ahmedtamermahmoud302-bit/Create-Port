@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "create:block/palettes/warped_window",
+    "edge": "createport:compat/minecraft/block/warped_planks",
+    "pane": "create:block/palettes/warped_window"
+  },
+  "display": {},
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "texture": "#pane"
+        }
+      }
+    }
+  ],
+  "ambientocclusion": false
+}

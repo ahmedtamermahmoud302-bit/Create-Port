@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "create:weathered_iron_window_1"
+      },
+      {
+        "model": "create:weathered_iron_window_2"
+      },
+      {
+        "model": "create:weathered_iron_window_3"
+      },
+      {
+        "model": "create:weathered_iron_window_4"
+      }
+    ]
+  }
+}

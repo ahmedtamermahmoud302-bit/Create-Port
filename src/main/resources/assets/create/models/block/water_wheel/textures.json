@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "axis": "create:block/axis",
+    "gearbox": "create:block/gearbox",
+    "axis_top": "create:block/axis_top",
+    "metal": "create:block/waterwheel_metal",
+    "log": "createport:compat/minecraft/block/oak_log",
+    "planks": "createport:compat/minecraft/block/oak_planks",
+    "particle": "createport:compat/minecraft/block/oak_planks"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

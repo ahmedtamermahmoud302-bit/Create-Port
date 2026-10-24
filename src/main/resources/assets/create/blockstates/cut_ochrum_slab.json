@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_ochrum_slab"
+    },
+    "type=double": {
+      "model": "create:cut_ochrum"
+    },
+    "type=top": {
+      "model": "create:cut_ochrum_slab_top"
+    }
+  }
+}

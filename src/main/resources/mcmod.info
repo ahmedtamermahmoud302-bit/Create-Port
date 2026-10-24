@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "createport",
+    "name": "Create Port Prototype",
+    "description": "Independent experimental Create backport. Core machinery development only; not a complete Create release.",
+    "version": "0.2.0-dev",
+    "mcversion": "1.12.2",
+    "authorList": ["Create Port contributors"],
+    "credits": "Inspired by Create by the Create Team. Unofficial port."
+  }
+]

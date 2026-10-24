@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create:powered_shaft",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create:powered_shaft"
+    },
+    "axis=z": {
+      "model": "create:powered_shaft",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

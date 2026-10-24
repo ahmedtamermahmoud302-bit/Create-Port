@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:copper_tile_slab"
+    },
+    "type=double": {
+      "model": "create:copper_tiles"
+    },
+    "type=top": {
+      "model": "create:copper_tile_slab_top"
+    }
+  }
+}

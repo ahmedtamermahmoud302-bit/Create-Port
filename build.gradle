@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies { classpath 'net.minecraftforge.gradle:ForgeGradle:3.0.197' }
+}
+// Resolve Mojang's libraries from their authoritative host before Forge's mirror.
+repositories {
+    maven { url = 'https://libraries.minecraft.net/' }
+    mavenCentral()
+}
+apply plugin: 'net.minecraftforge.gradle'
+
+version = '0.2.0-dev'
+group = 'dev.createport'
+archivesBaseName = 'create-port-1.12.2'
+sourceCompatibility = targetCompatibility = '1.8'
+// Legacy FML treats the classes directory as the development mod's resource pack.
+sourceSets.main.output.resourcesDir = sourceSets.main.output.classesDirs.singleFile
+
+minecraft {
+    mappings channel: 'snapshot', version: '20171003-1.12'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            forceExit false
+            property 'createport.renderSmoke', project.hasProperty('renderSmoke') ? 'true' : 'false'
+            property 'createport.renderAudit', project.hasProperty('renderAudit') ? 'true' : 'false'
+        }
+        server { workingDirectory project.file('run-server'); forceExit false }
+    }
+}
+dependencies { minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860' }
+jar.finalizedBy('reobfJar')
+
+task kineticTest(type: JavaExec, dependsOn: testClasses) {
+    classpath = sourceSets.test.runtimeClasspath
+    main = 'dev.createport.kinetics.KineticGraphTest'
+}
+task rotationRulesTest(type: JavaExec, dependsOn: testClasses) {
+    classpath = sourceSets.test.runtimeClasspath
+    main = 'dev.createport.kinetics.RotationRulesTest'
+}
+check.dependsOn kineticTest, rotationRulesTest
+task modelResourceTest(type: Exec, dependsOn: classes) {
+    commandLine 'python3', 'scripts/validate-models.py', '--minecraft-jar',
+        "${gradle.gradleUserHomeDir}/caches/forge_gradle/minecraft_repo/versions/1.12.2/client.jar"
+}
+check.dependsOn modelResourceTest

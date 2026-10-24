@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "create:hose_pulley/block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create:hose_pulley/block"
+    },
+    "facing=south": {
+      "model": "create:hose_pulley/block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create:hose_pulley/block",
+      "y": 270
+    }
+  }
+}

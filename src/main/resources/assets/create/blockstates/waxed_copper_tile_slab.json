@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:waxed_copper_tile_slab"
+    },
+    "type=double": {
+      "model": "create:copper_tiles"
+    },
+    "type=top": {
+      "model": "create:waxed_copper_tile_slab_top"
+    }
+  }
+}

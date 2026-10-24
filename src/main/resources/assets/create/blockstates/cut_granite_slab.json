@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_granite_slab"
+    },
+    "type=double": {
+      "model": "create:cut_granite"
+    },
+    "type=top": {
+      "model": "create:cut_granite_slab_top"
+    }
+  }
+}

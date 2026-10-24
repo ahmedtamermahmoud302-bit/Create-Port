@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "createport:obj",
+  "flip_v": true,
+  "model": "create:models/block/track/bogey/bogey_drive_wheel.obj",
+  "textures": {
+    "log": "createport:compat/minecraft/block/spruce_log",
+    "planks": "createport:compat/minecraft/block/spruce_planks",
+    "log_top": "createport:compat/minecraft/block/spruce_log_top",
+    "belt": "create:block/bogey/belt",
+    "bogey": "create:block/bogey/frame",
+    "bogey2": "create:block/bogey/frame2",
+    "piston": "create:block/bogey/piston",
+    "wheel": "create:block/bogey/wheel",
+    "axis": "create:block/axis",
+    "axis_top": "create:block/axis_top"
+  },
+  "display": {}
+}

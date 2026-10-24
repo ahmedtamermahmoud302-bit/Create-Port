@@ -1,0 +1,19 @@
+{
+  "credit": "Made with Blockbench",
+  "loader": "createport:composite",
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "create:block/brass_casing"
+  },
+  "children": {
+    "base": {
+      "model": "create:block/_legacy_parts/stock_link/block_horizontal_powered/base",
+      "layer": "CUTOUT_MIPPED"
+    },
+    "bulb": {
+      "model": "create:block/_legacy_parts/stock_link/block_horizontal_powered/bulb",
+      "layer": "TRANSLUCENT"
+    }
+  }
+}

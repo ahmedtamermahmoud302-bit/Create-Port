@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "0": "create:block/nixie_tube",
+    "particle": "create:block/nixie_tube"
+  },
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "loader": "createport:composite",
+  "children": {
+    "connectors": {
+      "model": "create:block/_legacy_parts/purple_nixie_tube/connectors",
+      "layer": "SOLID"
+    },
+    "tubes": {
+      "model": "create:block/_legacy_parts/purple_nixie_tube/tubes",
+      "layer": "TRANSLUCENT"
+    }
+  }
+}

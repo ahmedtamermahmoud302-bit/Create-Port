@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "valid=false": {
+      "model": "create:_vanilla/air"
+    },
+    "valid=true": {
+      "model": "create:_vanilla/air"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_crimsite_slab"
+    },
+    "type=double": {
+      "model": "create:cut_crimsite"
+    },
+    "type=top": {
+      "model": "create:cut_crimsite_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_dripstone_brick_slab"
+    },
+    "type=double": {
+      "model": "create:cut_dripstone_bricks"
+    },
+    "type=top": {
+      "model": "create:cut_dripstone_brick_slab_top"
+    }
+  }
+}

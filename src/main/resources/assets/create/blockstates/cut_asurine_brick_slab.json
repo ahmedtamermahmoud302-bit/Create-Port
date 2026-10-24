@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_asurine_brick_slab"
+    },
+    "type=double": {
+      "model": "create:cut_asurine_bricks"
+    },
+    "type=top": {
+      "model": "create:cut_asurine_brick_slab_top"
+    }
+  }
+}

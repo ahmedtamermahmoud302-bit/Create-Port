@@ -1,0 +1,9 @@
+This local compatibility port includes selected model templates, textures and
+palette-derived sprites referenced by the user-supplied Create source. The
+Minecraft 1.21.1 reference client was downloaded from Mojang's official manifest
+and verified against SHA-1 30c73b1c5da787909b2f73340419fdf13b9def88.
+
+Minecraft resources remain the property of Mojang/Microsoft. Their inclusion
+does not grant redistribution rights. The selected resource paths are recorded
+in assets/createport/render_catalog.json. Create's separate code and asset
+license is preserved in CREATE-SOURCE-LICENSE.md.

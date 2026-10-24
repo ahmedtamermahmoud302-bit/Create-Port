@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "createport:compat/minecraft/block/dark_oak_planks",
+    "side": "create:block/palettes/dark_oak_window"
+  },
+  "display": {}
+}

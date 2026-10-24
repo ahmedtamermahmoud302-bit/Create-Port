@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_calcite_slab"
+    },
+    "type=double": {
+      "model": "create:cut_calcite"
+    },
+    "type=top": {
+      "model": "create:cut_calcite_slab_top"
+    }
+  }
+}

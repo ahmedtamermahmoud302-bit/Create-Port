@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:copper_shingle_slab"
+    },
+    "type=double": {
+      "model": "create:copper_shingles"
+    },
+    "type=top": {
+      "model": "create:copper_shingle_slab_top"
+    }
+  }
+}

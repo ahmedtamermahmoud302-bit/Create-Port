@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create:mechanical_mixer/block"
+    }
+  }
+}

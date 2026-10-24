@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "create:block/palettes/dark_oak_window",
+    "edge": "createport:compat/minecraft/block/dark_oak_planks",
+    "pane": "create:block/palettes/dark_oak_window"
+  },
+  "display": {},
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            0,
+            7,
+            16
+          ],
+          "texture": "#pane"
+        }
+      }
+    }
+  ],
+  "ambientocclusion": false
+}

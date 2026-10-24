@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "create:nozzle/block",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "create:nozzle/block",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create:nozzle/block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "create:nozzle/block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "create:nozzle/block"
+    },
+    "facing=west": {
+      "model": "create:nozzle/block",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

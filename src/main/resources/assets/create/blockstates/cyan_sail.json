@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "create:cyan_sail",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "create:cyan_sail",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create:cyan_sail",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "create:cyan_sail",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "create:cyan_sail"
+    },
+    "facing=west": {
+      "model": "create:cyan_sail",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

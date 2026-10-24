@@ -1,0 +1,11 @@
+{
+  "archive": "Create-mc1.21.1-dev.zip",
+  "sha256": "7e4451c5282cc7c18ffbbb382d846c0367a20e0da92f61398e912fc5b68cebef",
+  "source_directory": "/workspace/create-uploaded-source/Create-mc1.21.1-dev",
+  "declared_mod_version": "6.0.11",
+  "minecraft_version": "1.21.1",
+  "uploaded_binary_version": "6.0.10",
+  "assets_reused": true,
+  "asset_license_notice": "src/main/resources/META-INF/CREATE-SOURCE-LICENSE.md",
+  "modern_minecraft_client_sha1": "30c73b1c5da787909b2f73340419fdf13b9def88"
+}

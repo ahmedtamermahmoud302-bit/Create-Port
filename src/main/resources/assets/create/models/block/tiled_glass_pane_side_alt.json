@@ -1,0 +1,7 @@
+{
+  "parent": "createport:compat/minecraft/block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "createport:compat/minecraft/block/glass_pane_top",
+    "pane": "create:block/palettes/tiled_glass"
+  }
+}

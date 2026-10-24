@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "create:block/palettes/framed_glass",
+    "edge": "create:block/palettes/framed_glass_pane_top",
+    "pane": "create:block/palettes/framed_glass"
+  },
+  "display": {},
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "texture": "#pane"
+        }
+      }
+    }
+  ],
+  "ambientocclusion": false
+}

@@ -1,0 +1,14 @@
+{
+  "loader": "createport:obj",
+  "ambientocclusion": false,
+  "flip_v": true,
+  "model": "create:models/block/track/ascending.obj",
+  "textures": {
+    "log": "createport:compat/minecraft/block/spruce_log",
+    "planks": "createport:compat/minecraft/block/spruce_planks",
+    "log_top": "createport:compat/minecraft/block/spruce_log_top",
+    "0": "create:block/standard_track",
+    "1": "create:block/standard_track_mip",
+    "particle": "create:block/palettes/stone_types/polished/andesite_cut_polished"
+  }
+}

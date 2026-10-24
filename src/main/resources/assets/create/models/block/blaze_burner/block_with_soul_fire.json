@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "createport:obj",
+  "flip_v": true,
+  "model": "create:models/block/blaze_burner/campfire.obj",
+  "textures": {
+    "log": "createport:compat/minecraft/block/spruce_log",
+    "planks": "createport:compat/minecraft/block/spruce_planks",
+    "log_top": "createport:compat/minecraft/block/spruce_log_top",
+    "0": "create:block/blaze_heater_brazier_soul",
+    "1": "createport:compat/minecraft/block/soul_campfire_fire",
+    "particle": "create:block/dark_metal_block"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "create:crimsite_natural_0"
+      },
+      {
+        "model": "create:crimsite_natural_1"
+      },
+      {
+        "model": "create:crimsite_natural_2"
+      },
+      {
+        "model": "create:crimsite_natural_3"
+      }
+    ]
+  }
+}

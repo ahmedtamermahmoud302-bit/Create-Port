@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_limestone_slab"
+    },
+    "type=double": {
+      "model": "create:cut_limestone"
+    },
+    "type=top": {
+      "model": "create:cut_limestone_slab_top"
+    }
+  }
+}

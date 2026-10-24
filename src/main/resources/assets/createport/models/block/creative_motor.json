@@ -1,0 +1,42 @@
+{
+  "textures": {
+    "metal": "createport:blocks/metal",
+    "gear": "createport:blocks/gear",
+    "motor": "createport:blocks/motor",
+    "particle": "createport:blocks/metal"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#motor"
+        },
+        "down": {
+          "texture": "#motor"
+        },
+        "north": {
+          "texture": "#motor"
+        },
+        "south": {
+          "texture": "#motor"
+        },
+        "east": {
+          "texture": "#motor"
+        },
+        "west": {
+          "texture": "#motor"
+        }
+      }
+    }
+  ]
+}

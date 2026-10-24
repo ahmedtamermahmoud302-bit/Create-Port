@@ -1,0 +1,85 @@
+{
+  "textures": {
+    "1": "create:block/link_details",
+    "particle": "create:block/brass_casing"
+  },
+  "elements": [
+    {
+      "from": [
+        8.5,
+        7,
+        2.5
+      ],
+      "to": [
+        13.5,
+        12,
+        7.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          9,
+          7,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            2.5,
+            13.5,
+            5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            16,
+            2.5,
+            13.5,
+            5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            2.5,
+            16,
+            5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            2.5,
+            16,
+            5
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            13.5,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ]
+}

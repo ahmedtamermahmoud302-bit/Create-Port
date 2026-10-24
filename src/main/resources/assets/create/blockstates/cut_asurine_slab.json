@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:cut_asurine_slab"
+    },
+    "type=double": {
+      "model": "create:cut_asurine"
+    },
+    "type=top": {
+      "model": "create:cut_asurine_slab_top"
+    }
+  }
+}
